@@ -47,5 +47,6 @@ systemtest2:
     - script:
         name: echo
         code: |
+          yo 
           echo "testing world 2!"
 
