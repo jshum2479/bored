@@ -27,5 +27,25 @@ build:
     - script:
         name: echo
         code: |
-          echo "hello world!"
+          echo "building  world!"
+
+systemtest1:
+    # Steps make up the actions in your pipeline
+    # Read more about steps on our dev center:
+    # http://devcenter.wercker.com/docs/steps/index.html
+  steps:
+    - script:
+        name: echo
+        code: |
+          echo "testing world 1!"
+
+systemtest2:
+    # Steps make up the actions in your pipeline
+    # Read more about steps on our dev center:
+    # http://devcenter.wercker.com/docs/steps/index.html
+  steps:
+    - script:
+        name: echo
+        code: |
+          echo "testing world 2!"
 
